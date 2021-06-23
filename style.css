@@ -32,6 +32,7 @@ main {
   border-radius: 8px 8px 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  filter:saturate(1.1);
 }
 
 /* the header image on desktop */
@@ -58,6 +59,7 @@ main {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   font-family: "Lexend Deca", sans-serif;
+  padding: 1em;
 }
 
 /* the word "insights" */
@@ -92,7 +94,8 @@ main {
 and (min-width: 600px)
 and (max-width: 1440px) {
   main {
-  flex-direction: row;
+    flex-direction: row;
+    width: 75%;
   }
   #text {
     border-radius: 8px 0 0 8px;
