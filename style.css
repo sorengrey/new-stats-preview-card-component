@@ -4,6 +4,77 @@ body {
   margin: 0;
 }
 
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* contains image and text divs */
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* the header image */
+#image {
+  background-image: url(../images/image-header-mobile.jpg);
+  max-width: 100%;
+  height: auto;
+  float: left;
+  border-radius: 8px 8px 0 0;
+}
+
+/* the text box */
+#text {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 0 0 8px 8px;
+}
+
+/* first sentence */
+#tagline {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* the word "insights" */
+#insights {
+  display: inline;
+  color: hsl(277, 64%, 61%);
+}
+
+/* the paragraph */
+#text p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* the box around the stats */
+#stats {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* attribution from Frontend Mentor */
 .attribution {
   display: none;
+}
+
+
+@media only screen
+and (min-width: 700px)
+and (max-width: 1440px) {
+  main {
+  flex-direction: row;
+  }
+  /* #image {
+    float: right;
+  }
+  #text {
+    float: left;
+  } */
 }
