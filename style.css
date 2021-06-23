@@ -11,7 +11,7 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 
 /* contains image and text divs */
@@ -19,15 +19,32 @@ main {
   margin: auto;
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
-/* the header image */
-#image {
-  background-image: url(../images/image-header-mobile.jpg);
+/* the header image on mobile */
+#image-m {
+  background-image: linear-gradient(rgba(66, 11, 100, 0.6), rgba(66, 11, 100, 0.6)), url(../images/image-header-mobile.jpg);
   max-width: 100%;
   height: auto;
-  float: left;
+  /* float: left; */
+  display: flex;
+  object-fit: cover;
   border-radius: 8px 8px 0 0;
+  background-repeat: no-repeat;
+}
+
+/* the header image on desktop */
+#image-d {
+  background-image: linear-gradient(rgba(66, 11, 100, 0.6), rgba(66, 11, 100, 0.6)), url(../images/image-header-mobile.jpg);
+  max-width: 100%;
+  height: auto;
+  /* float: left; */
+  display: flex;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  background-repeat: no-repeat;
+  display: none;
 }
 
 /* the text box */
@@ -66,15 +83,15 @@ main {
 
 
 @media only screen
-and (min-width: 700px)
+and (min-width: 600px)
 and (max-width: 1440px) {
   main {
   flex-direction: row;
   }
-  /* #image {
-    float: right;
+  #image-m {
+    display: none;
   }
-  #text {
-    float: left;
-  } */
+  #image-d {
+    display: flex;
+  }
 }
