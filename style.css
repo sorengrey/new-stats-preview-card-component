@@ -7,7 +7,6 @@ body {
 body {
   background-color: hsl(233, 47%, 7%);
   display: flex;
-  /* height: 100vh; */
   align-items: center;
   justify-content: center;
 }
@@ -113,12 +112,13 @@ and (max-width: 1800px) {
   }
   #text {
     border-radius: 8px 0 0 8px;
-    padding: 2em 2em 3em 2em;
-    /* text-align: left; */
+    padding: 3.5em;
   }
-  p {
+  #text p {
     text-align: left;
-    width: 75%
+    width: 80%;
+    margin-bottom: 3em;
+    padding: 0;
   }
   #image-m {
     display: none;
@@ -129,25 +129,22 @@ and (max-width: 1800px) {
     width: 100%;
     min-height: 55vh;
   }
+  /* the tagline */
   h2 {
     font-size: 3em;
     font-size: 1.9em;
     text-align: left;
+    padding: 0;
+    width: 75%;
   }
   #stats {
-    /* text-align: left; */
-    align-items: center;
+    padding-top: 2em;
+    text-align: left;
   }
   /* the card around each stat and label */
   span {
     display: inline-flex;
     flex-direction: column;
     width: 32%;
-}
-  .word {
-    /* padding: 0; */
-  }
-  .number {
-    /* padding: 0; */
   }
 }
