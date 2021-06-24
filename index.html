@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"/>
+    <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- My CSS -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-  <main>
-    <!-- Image On Mobile -->
-    <div id="image-m"></div>
+  <body>
+    <main>
+      <!-- Image On Mobile -->
+      <div id="image-m"></div>
 
-    <div id="text">
-      <div id="tagline">Get <div id="insights">insights</div> that help your business grow.</div>
+      <div id="text">
+        <h2>
+          Get
+          <div id="insights">insights</div>
+          that help your business grow.
+        </h2>
 
-      <p>Discover the benefits of data analytics and make better decisions   regarding revenue, customer experience, and overall efficiency.</p>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
 
-      <div id="stats">
-        <div class="number">10K+</div>
-        <div class="word">companies</div>
-        <div class="number">314</div>
-        <div class="word">templates</div>
-        <div class="number">12M+</div>
-        <div class="word">queries</div>
+        <div id="stats">
+          <div class="card">
+            <div class="number">10K+</div>
+            <div class="word">companies</div>
+          </div>
+
+          <div class="card">
+            <div class="number">314</div>
+            <div class="word">templates</div>
+          </div>
+
+          <div class="card">
+            <div class="number">12M+</div>
+            <div class="word">queries</div>
+          </div>
       </div>
+      
+      <!-- Image On Desktop -->
+      <div id="image-d"></div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Heather Smith</a>.
     </div>
-    <!-- Image On Desktop -->
-    <div id="image-d"></div>
-  </main>
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Heather Smith</a>.
-  </div>
-
-
-</body>
+  </body>
 </html>
