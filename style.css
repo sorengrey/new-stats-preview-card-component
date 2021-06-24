@@ -7,7 +7,7 @@ body {
 body {
   background-color: hsl(233, 47%, 7%);
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   align-items: center;
   justify-content: center;
 }
@@ -84,21 +84,18 @@ h2 {
   font-family: "Inter", sans-serif;
 }
 
-.card {
-  padding-bottom: 1em;
-}
-
 .word {
   text-transform: uppercase;
-  opacity: 60%;
   font-size: 12px;
   letter-spacing: 1px;
+  padding: 0 0 2em 0;
 }
 
 .number {
   font-weight: bold;
   color: #FFFFFF;
   font-size: 24px;
+  padding: 0 0 0.4em 0;
 }
 
 /* attribution from Frontend Mentor */
@@ -112,12 +109,16 @@ and (min-width: 700px)
 and (max-width: 1800px) {
   main {
     flex-direction: row;
-    width: 75%;
+    width: 80%;
   }
   #text {
     border-radius: 8px 0 0 8px;
-    float: left;
-    padding: 1em;
+    padding: 2em 2em 3em 2em;
+    /* text-align: left; */
+  }
+  p {
+    text-align: left;
+    width: 75%
   }
   #image-m {
     display: none;
@@ -130,5 +131,23 @@ and (max-width: 1800px) {
   }
   h2 {
     font-size: 3em;
+    font-size: 1.9em;
+    text-align: left;
+  }
+  #stats {
+    /* text-align: left; */
+    align-items: center;
+  }
+  /* the card around each stat and label */
+  span {
+    display: inline-flex;
+    flex-direction: column;
+    width: 32%;
+}
+  .word {
+    /* padding: 0; */
+  }
+  .number {
+    /* padding: 0; */
   }
 }
