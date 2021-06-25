@@ -142,7 +142,7 @@ and (max-width: 1800px) {
     text-align: left;
   }
   /* the card around each stat and label */
-  span {
+  .card {
     display: inline-flex;
     flex-direction: column;
     width: 32%;
