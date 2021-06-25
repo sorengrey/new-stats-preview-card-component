@@ -53,13 +53,14 @@ main {
 }
 
 /* tagline */
-h2 {
+#tagline {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   font-family: "Lexend Deca", sans-serif;
-  padding: 0 1em 0 1em;
+  padding-bottom: .5em;
   font-size: 1.8em;
   letter-spacing: .9px;
+  text-align: left;
 }
 
 /* the word "insights" */
@@ -72,7 +73,7 @@ h2 {
 #text p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Inter", sans-serif;
-  padding: 0 2em 1em 2em;
+  padding: 1em 2em 1em 2em;
   opacity: 60%;
   line-height: 1.6em;
 }
@@ -142,7 +143,7 @@ and (max-width: 1800px) {
     text-align: left;
   }
   /* the card around each stat and label */
-  #card {
+  .card {
     display: inline-flex;
     flex-direction: column;
     width: 32%;
