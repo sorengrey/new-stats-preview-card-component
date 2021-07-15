@@ -39,18 +39,20 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### What I learned
+I learned so much while doing this project! My flexbox skills were rusty and this helped me get back into it. I also was unaware of how to properly lay a transparent gradient over an image. I learned that it's easier to set the image as the background of a div instead of trying to manipulate the image itself. This also helped me brush up on the things CSS can do with backgrounds.
 
+I also learned a bit more about semantic HTML. I didn't realize I could use tags like h1 and style them as needed instead of cluttering things with class names. Pretty neat!
 
 ### Continued development
-
+There are still a few small issues with the responsive part of the design. I will probably return after I'm a little more experienced and try to iron them out.
 
 ## Author
 
 - Website - [Heather Smith](https://sorengrey.github.io/current-portfolio/)
 - Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
+- LinkedIn - [Heather Smith]()
 
 
 ## Acknowledgments
