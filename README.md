@@ -50,8 +50,9 @@ Users should be able to:
 ## Author
 
 - Website - [Heather Smith](https://sorengrey.github.io/current-portfolio/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sorengrey)
+- Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
 
 
 ## Acknowledgments
 
+I'd like to thank [@tl-lucasestevam](https://github.com/tl-lucasestevam) and [@grmajik](https://github.com/grmajik) for their help on Frontend Mentor. They commented on my first attempt at this project, which was a disaster. Both helped me learn something new and fix my code. Thanks again, guys!
