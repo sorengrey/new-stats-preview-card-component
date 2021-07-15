@@ -48,11 +48,13 @@ I also learned a bit more about semantic HTML. I didn't realize I could use tags
 ### Continued development
 There are still a few small issues with the responsive part of the design. I will probably return after I'm a little more experienced and try to iron them out.
 
+Also, I saw a few other solutions that involved using the multiply method in CSS to make the background image purple. I would like to read up on that and maybe change mine to match.
+
 ## Author
 
 - Website - [Heather Smith](https://sorengrey.github.io/current-portfolio/)
 - Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
-- LinkedIn - [Heather Smith]()
+- LinkedIn - [Heather Smith](https://www.linkedin.com/in/heathersmith17/)
 
 
 ## Acknowledgments
